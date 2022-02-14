@@ -5,13 +5,13 @@ import './style.css';
 const Navbar = () => {
 	return(
 		<div className="Navbar">
-			<div className="left">
+			<div className="nav-left">
 				<div className="badge">
 					<img src={logo1} width={53} height={50}/>
 					<img src={logo2} width={175} height={40}/>
 				</div>
 			</div>
-			<div className="right">
+			<div className="nav-right">
 				<ul className='navbar-list'>
 					<li className='item'>Who are We</li>
 					<li className='item'>Learn To Earn</li>
