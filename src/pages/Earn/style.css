@@ -1,0 +1,96 @@
+.earn-container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    /* position: relative; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.earn-header {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    /* mask-image: linear-gradient(to top, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 90%); */
+}
+
+.earn-title {
+    width: 30%;
+    display: inline-block;
+    color: goldenrod;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.earn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 100px;
+}
+
+.earn-box {
+    width: 110%;
+    height: 100%;
+    border: 1px solid goldenrod;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(61px);
+    z-index: 10;
+}
+
+.box-left {
+    margin-right: 150px;
+}
+
+.earn-box-image {
+    margin-top: -90px;
+    align-self: center;
+    width: 50%;
+}
+
+
+.earn-box-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* margin-left: 10px; */
+}
+
+.earn-middle {
+    position: relative;
+    margin-top: -100px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #311C54 28.26%, #0F1128 92.11%);
+    mask-image: linear-gradient(to top, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+}
+
+.earn-middle-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.earn-middle-title {
+    font-weight: 300;
+    text-align: center;
+}
+
+.earn-span {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.earn-middle-paragraph {
+    margin-top: 30px;
+    text-align: center;
+}

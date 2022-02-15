@@ -15,7 +15,7 @@ const Navbar = () => {
 			<div className="nav-right">
 				<ul className='navbar-list'>
 					<Link to='/' className='item'>Who are We</Link>
-					<Link to='/' className='item'>Learn To Earn</Link>
+					<Link to='/earn' className='item'>Learn To Earn</Link>
 					<Link to='/' className='item'>NFTs</Link>
 					<Link to='/gamefi' className='item'>Gamefi</Link>
 					<Link to='/' className='item'>DeFi</Link>

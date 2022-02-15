@@ -8,7 +8,7 @@
     align-items: center;
     /* background: linear-gradient(to right, black, rgba(0,0,0,0)); */
     /* mask-image: linear-gradient(to bottom, white, rgba(0,0,0,0)); */
-    z-index: 100;
+    z-index: 1000000;
 }
 
 .nav-left {
