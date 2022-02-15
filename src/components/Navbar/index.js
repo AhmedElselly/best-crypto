@@ -1,6 +1,7 @@
 import logo1 from '../../Assets/Logo-02-1.png';
 import logo2 from '../../Assets/Logo-02-2.png';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return(
@@ -13,11 +14,11 @@ const Navbar = () => {
 			</div>
 			<div className="nav-right">
 				<ul className='navbar-list'>
-					<li className='item'>Who are We</li>
-					<li className='item'>Learn To Earn</li>
-					<li className='item'>NFTs</li>
-					<li className='item'>Gamefi</li>
-					<li className='item'>DeFi</li>
+					<Link to='/' className='item'>Who are We</Link>
+					<Link to='/' className='item'>Learn To Earn</Link>
+					<Link to='/' className='item'>NFTs</Link>
+					<Link to='/gamefi' className='item'>Gamefi</Link>
+					<Link to='/' className='item'>DeFi</Link>
 				</ul>
 			</div>
 		</div>

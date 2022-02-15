@@ -1,0 +1,152 @@
+.gamefi-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.98%, #000000 5%);
+    /* margin-top: -50px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.gamefi-header {
+    width: 100%;
+    height: 100vh;
+    mask-image: linear-gradient(to bottom, rgba(255,255,255,1) 50%, rgba(255,255,255,0.1));
+}
+
+.gamefi-header-image {
+    width: 100%;
+    height: 100%;
+}
+
+.gamefi-middle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.98%, #000000 5%);
+    /* margin-top: -50px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gamefi-middle-wrapper {
+    width: 80%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gamefi-paragraph-top-center {
+    margin-top: -150px;
+    margin-bottom: 120px;
+    width: 70%;
+    align-self: center;
+    text-align: center;
+}
+
+.gamefi-middle-m {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gamefi-middle-title {
+    margin-bottom: 40px;
+}
+
+.gamefi-span {
+    color: goldenrod;
+}
+
+.gamefi-middle-subtitle {
+    width: 65%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: goldenrod;
+}
+
+.gamefi-middle-left {
+    margin-right: 50px;
+}
+
+.gamefi-middle-right {
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.gamefi-image-middle {
+    width: 100%;
+}
+
+.gamefi-middle-bottom {
+    align-self: flex-start;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gamefi-middle-bottom-title {
+    align-self: flex-start;
+    color: goldenrod;
+    margin-bottom: 50px;
+}
+
+.allows-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 194px 137px 100px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 194px 137px 100px rgba(0,0,0,1);
+    box-shadow: 0px 194px 137px 100px rgba(0,0,0,1);
+    z-index: 10000;
+}
+
+.allow {
+    background: rgba(39, 24, 71, 1);
+    margin-right: 70px;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.gamefi-icon {
+    width: 30%;
+    margin-top: -20px;
+    align-self: center;
+    /* border-radius: 100%;
+    -webkit-box-shadow: 0px 50px 137px 22px rgba(2,203,203,1);
+    -moz-box-shadow: 0px 50px 137px 22px rgba(2,203,203,1);
+    box-shadow: 0px 50px 137px 22px rgba(2,203,203,1); */
+}
+
+.gamefi-bottom {
+    position: relative;    
+}
+
+.gamefi-bottom-image {
+    width: 100%;
+}
+
+.gamefi-bottom-paragraph {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    width: 60%;
+}
