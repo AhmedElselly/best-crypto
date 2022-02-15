@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route exact path='/signup-corporate' element={<Corporate/>}/>
         <Route exact path='/signup-procedure' element={<SignupProcedure/>}/> */}
       </Routes>
+      
+      {/* <Footer/> */}
     </div>
   );
 }

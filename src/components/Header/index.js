@@ -17,7 +17,7 @@ const Header = props => {
 						<h1 className='title'>best <span className='crypto'>crypto</span> <span className='token'>token</span></h1>
 					</div>
 					<p className='leverage'>Leverage on any tokens with a protocol trusted with billions for its price execution, super low fees and reliability.</p>
-					<div className='buttons'>
+					<div className='header-buttons'>
 						<button className='btn-left'>button1</button>
 						<button className='btn-right'>button2</button>
 					</div>
