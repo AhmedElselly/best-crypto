@@ -1,0 +1,76 @@
+.uni-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.98%, #000000 5%);
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+
+.wrapper {
+    margin-top: -350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.uni-title {
+    margin-left: 50px;
+    width: 55%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.span {
+    color: goldenrod;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: -20px;
+    margin-right: 150px;
+    margin-left: 0px;
+    width: 80%;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    /* background-color: goldenrod; */
+    border: 1px solid goldenrod;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgba(149, 223, 255, 1);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uni-image-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.uni-image {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .btn {
+    width: 50px;
+    height: 25px;
+    border: 1px solid;
+
+border-image-source: linear-gradient(90deg, #F7A501 64.9%, rgba(247, 165, 1, 0) 100%);
+
+
+} */
